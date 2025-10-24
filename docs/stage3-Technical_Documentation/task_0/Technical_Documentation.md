@@ -857,3 +857,4 @@ jobs:
 - **Testing pyramid** reduces cost: most checks are fast unit/integration tests; a few E2E cover critical paths.  
 - **CI quality gates** prevent regressions; **staging** mirrors prod for realistic validation.  
 - **Observability** shortens time-to-detect and time-to-recover.
+

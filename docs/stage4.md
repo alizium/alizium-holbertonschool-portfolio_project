@@ -1,4 +1,4 @@
-0. Plans and sprints
+
 
 The purpose of this phase was to divide the Expiry Tracker MVP development into short, manageable iterations in order to ensure continuous progress, iterative testing, and flexibility.
 By applying Agile principles, the work was organized in a way that each sprint produced concrete, testable deliverables that progressively built the final product.
@@ -41,7 +41,7 @@ Sprint Structure :
 
 
 
-1. Development Tasks
+
 Purpose
 
 The purpose of this stage was to implement the MVP features defined in the sprint plan.
@@ -90,7 +90,7 @@ Tasks executed:
 8	Setup Swagger documentation	Added /api/docs for API documentation
 9	Write Postman tests	Verified endpoints and error handling
 
-2. Monitor Progress and Adjusting
+
 Purpose
 
 The purpose of this stage was to monitor the project’s progress, identify potential blockers early, and ensure the sprints stayed aligned with the initial objectives defined during planning.
@@ -135,8 +135,6 @@ This method kept focus, prevented overload, and ensured every commit moved the p
 
 
 
-
-3. Conduct Sprint Reviews and Retrospectives
 Purpose
 
 The purpose of this phase was to review the progress of each sprint, present the work completed, and conduct a retrospective to identify successes, challenges, and areas for improvement.
@@ -233,7 +231,7 @@ What worked well	Clear sprint goals and manageable workload. The backend archite
 What didn’t work well :	Some environment variables (SMTP, JWT_SECRET) caused delays due to configuration issues.
 What to improve	: Creating a .env.example early in Sprint 1. Implementing a basic CI test to automate backend validation. = completed
 
-4. Final Integration and QA Testing
+
 Purpose
 
 The purpose of this final phase was to verify that all components of the MVP work together seamlessly, ensuring functional, stable, and secure integration between the backend, frontend, and database.
@@ -252,10 +250,3 @@ Frontend (HTML + JS + CSS)	Provided user interface for interaction with backend	
 Email Service (Nodemailer)	Sent password reset and expiration reminders	Working in console (dev mode)
 Scheduler (node-cron)	Triggered daily checks for expiring items	Operational and logged daily
 CI/CD (GitHub Actions)	Automated testing workflow for backend	Passed all builds successfully
-
-
-5. Deliverables
-Purpose
-
-This final section summarizes all tangible outputs and documentation produced during Stage 4.
-It confirms that all sprints, code implementations, QA tests, and integration tasks were successfully completed and validated according to the project requirements.

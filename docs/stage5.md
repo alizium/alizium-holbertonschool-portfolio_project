@@ -85,6 +85,4 @@ The live demo was prepared and delivered with the following goals:
 
 - Show real-time functionality of the MVP
 - Communicate project decisions clearly and professionally
-- Answer potential questions with confidence and depth
-
-A video recording or live walkthrough can be provided if needed.
+- Answer potential questions
